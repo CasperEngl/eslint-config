@@ -8,12 +8,11 @@
   },
   "devDependencies": {
     "@casperengl/eslint-config": "^1.3.0",
-    "@putout/eslint-config": "^4.1.1",
     "eslint": "^7.9.0",
-    "eslint-config-airbnb-base": "^14.2.0",
     "eslint-plugin-import": "^2.22.0"
   },
   "peerDependencies": {
+    "eslint-config-airbnb-base": "^14.2.0",
     "eslint": ">=5"
   }
 }

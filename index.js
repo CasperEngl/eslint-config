@@ -1,7 +1,10 @@
 module.exports = {
+  extends: [
+    'airbnb-base',
+  ],
   rules: {
-    'quotes': [2, 'single'],
-    'semi': [2, 'never'],
+    quotes: [2, 'single'],
+    semi: [2, 'never'],
     'import/no-extraneous-dependencies': 0,
     'global-require': 0,
     'comma-dangle': [2, 'always-multiline'],
@@ -27,13 +30,7 @@ module.exports = {
       ignoreTemplateLiterals: true,
       ignoreTrailingComments: true,
     }],
-    'putout/single-property-destructuring': 0,
-    'putout/multiple-properties-destructuring': 2,
-    'putout/align-spaces': 2,
-    'putout/newline-function-call-arguments': 2,
-    'putout/function-declaration-paren-newline': 2,
-    'putout/remove-newline-after-default-import': 2,
     'no-trailing-spaces': 2,
-    'indent': [2, 2],
+    indent: [2, 2],
   },
 }
