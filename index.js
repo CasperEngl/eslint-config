@@ -1,6 +1,6 @@
 module.exports = {
   rules: {
-    quotes: 'single',
+    quotes: [2, 'single'],
     'import/no-extraneous-dependencies': 0,
     'global-require': 0,
     semi: [2, 'never'],
