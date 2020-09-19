@@ -1,15 +1,36 @@
 module.exports = {
   rules: {
     quotes: [2, 'single'],
+    semi: [2, 'never'],
     'import/no-extraneous-dependencies': 0,
     'global-require': 0,
-    semi: [2, 'never'],
     'comma-dangle': [2, 'always-multiline'],
-    'object-curly-newline': [2, {
-      multiline: true,
-      minProperties: 3,
-    }],
     'array-bracket-spacing': [2, 'never'],
     'object-curly-spacing': [2, 'always'],
+    'object-curly-newline': [2, {
+      multiline: true,
+      consistent: true,
+      minProperties: 3,
+    }],
+    'object-property-newline': ['error', {
+      allowMultiplePropertiesPerLine: false,
+    }],
+    'brace-style': [2, '1tbs'],
+    'no-empty-pattern': 'error',
+    'max-len': ['error', {
+      ignoreUrls: true,
+      ignoreStrings: true,
+      ignoreRegExpLiterals: true,
+      ignoreTemplateLiterals: true,
+      ignoreTrailingComments: true,
+    }],
+    'putout/single-property-destructuring': 'never',
+    'putout/multiple-properties-destructuring': 'error',
+    'putout/align-spaces': 'error',
+    'putout/newline-function-call-arguments': 'error',
+    'putout/function-declaration-paren-newline': 'error',
+    'putout/remove-newline-after-default-import': 'error',
+    'no-trailing-spaces': 'error',
+    indent: ['error', 2],
   },
-};
+}
