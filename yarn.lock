@@ -23,6 +23,11 @@
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
+"@casperengl/eslint-config@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@casperengl/eslint-config/-/eslint-config-1.1.0.tgz#9fa15eb0389f604ebad6901bcbd0eff6a48be0f4"
+  integrity sha512-um0e0zzVqc5c/UDS/4hXhu0xmy6p0C0r4YyKjat/Jccx0/Vblf8W8hbUx8NTkhDtXvzOr6wkG0Oa7M4o0OubzQ==
+
 "@eslint/eslintrc@^0.1.3":
   version "0.1.3"
   resolved "https://registry.yarnpkg.com/@eslint/eslintrc/-/eslintrc-0.1.3.tgz#7d1a2b2358552cc04834c0979bd4275362e37085"
@@ -38,6 +43,11 @@
     lodash "^4.17.19"
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
+
+"@putout/eslint-config@^4.1.1":
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/@putout/eslint-config/-/eslint-config-4.1.1.tgz#7d619588cf2218448ea5ce88776d09348cc206e2"
+  integrity sha512-AoU/GzpWQ2vx3VWd5JMJg2HMDKkYJOlI8izQkfZpxJqUksjlQ+jnE8NjCuuC8roTubgdsqi/ErVDWrKlkXA/Bg==
 
 "@types/color-name@^1.1.1":
   version "1.1.1"

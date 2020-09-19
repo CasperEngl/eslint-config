@@ -7,6 +7,8 @@
     "test": "echo 'No tests found'"
   },
   "devDependencies": {
+    "@casperengl/eslint-config": "^1.1.0",
+    "@putout/eslint-config": "^4.1.1",
     "eslint": "^7.9.0",
     "eslint-config-airbnb-base": "^14.2.0",
     "eslint-plugin-import": "^2.22.0"
